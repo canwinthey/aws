@@ -1,5 +1,9 @@
 # s3-file-storage-example
 
+# POST API http://localhost:9090/aws/file/upload
+
+# GET API http://localhost:9090/aws/file/download/{filename}
+
 we can either use “aws-java-sdk” from maven
 
 <!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk -->
