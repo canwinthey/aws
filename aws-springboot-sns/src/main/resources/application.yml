@@ -1,0 +1,15 @@
+cloud:
+  aws:
+    region:
+      static: ap-south-1
+      auto: false
+    credentials:
+      access-key: AKIA45VE3Q6POELRX2LF
+      secret-key: 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
+    end-point:
+      uri: https://sqs.ap-south-1.amazonaws.com/888330225566/canwinthey-queue
+
+sqs-queue-name: canwinthey-queue
+sns-topic: canwinthey
+topic-arn: arn:aws:sns:ap-south-1:888330225566:canwinthey
+sqs-arn: arn:aws:sqs:ap-south-1:888330225566:canwinthey-queue
