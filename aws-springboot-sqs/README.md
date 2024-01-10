@@ -44,3 +44,5 @@ Only one subscriber is needed.
 
 ### Summary
 SQS is mainly used to decouple applications. SNS distributes several copies of a message to several subscribers.
+
+![img_2.png](img_2.png)
